@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/etude.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="container">
+        <div class="layout parcours">
+            <h1>Mon parcours scolaire</h1>
+            <ul>
+                <li>
+                    <a>Bac Général lycée Margueritte de Navarre (Bourges)</a>
+                    <p>Spécialités : NSI (Numérique Sciences Informatiques), LLCE (Langue, 
+                        Littérature et Civilisation Etrangère) Espagnol</p>
+                </li>
+                <li>
+                    <a>BTS SIO lycée Paul Louis Courier (Tours)</a>
+                    <p>Option : SLAM (Solution Logicielles Applications Métiers)</p>
+                </li>
+            </ul>
+        </div>
+        <div class="bar"></div>
+        <div class="layout bts" id="BTS">
+            <h1>BTS SIO</h1>
+            <p>Le <a class="highlight" href="etude.html#BTS">BTS SIO</a> (Services Informatiques aux Organisations)
+                 est un diplôme de niveau Bac+2 qui forme des techniciens supérieurs spécialisés 
+                 dans l'informatique. Il existe deux options : <a class="highlight" href="etude.html#SLAM">SLAM</a> 
+                 (Solutions Logicielles et Applications Métier) pour la partie développement et 
+                 <a class="highlight" href="etude.html#SISR">SISR</a> (Solutions d'Infrastructure, Systèmes et Réseaux) 
+                 pour la partie réseaux.
+            </p>
+            <img src="assets/img-bts.jpg" alt="image bts SIO">
+        </div>
+        <div class="layout SLAM" id="SLAM">
+            <h1>Option SLAM</h1>
+            <h2>Solutions Logicielles et Applications Métiers</h2>
+            <p>La spécialité SLAM forme des techniciens capables de concevoir, développer et maintenir des applications
+                 informatiques et des solutions logicielles pour répondre aux besoins métiers des organisations.
+            </p>
+            <ul class="programme">
+                <li><i class="bi bi-caret-right-fill"></i> Développement d'applications web, mobile et de bureau</li>
+                <li><i class="bi bi-caret-right-fill"></i> Conception et gestion de bases de données (SQL, NoSQL)</li>
+                <li><i class="bi bi-caret-right-fill"></i> Modélisation et analyse des besoins (UML, Merise)</li>
+                <li><i class="bi bi-caret-right-fill"></i> Tests, documentation et maintenance de logiciels</li>
+                <li><i class="bi bi-caret-right-fill"></i> Intégration de solutions dans le système d'information</li>
+            </ul>
+            <div class="debouches">
+                <a>Débouchés</a>
+                <ul>
+                    <li><i class="bi bi-caret-right-fill"></i> Développeur web / applicatif</li>
+                    <li><i class="bi bi-caret-right-fill"></i> Analyste-programmeur</li>
+                    <li><i class="bi bi-caret-right-fill"></i> Poursuite en licence pro ou école d'ingénieurs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="layout SISR" id="SISR">
+            <h1>Option SISR</h1>
+            <h2>Solutions d'Infrastructure, Systèmes et Réseaux</h2>
+            <p>La spécialité SISR forme des techniciens spécialisés dans l'installation, la configuration, la sécurisation
+                 et la maintenance des infrastructures informatiques, des systèmes et des réseaux d'une organisation.
+            </p>
+            <ul class="programme">
+                <li><i class="bi bi-caret-right-fill"></i> Administration des systèmes d'exploitation (Windows, Linux)</li>
+                <li><i class="bi bi-caret-right-fill"></i> Configuration et gestion des réseaux (LAN, WAN, VPN)</li>
+                <li><i class="bi bi-caret-right-fill"></i> Sécurisation des infrastructures et gestion des accès</li>
+                <li><i class="bi bi-caret-right-fill"></i> Virtualisation et services cloud</li>
+                <li><i class="bi bi-caret-right-fill"></i> Supervision, dépannage et support technique</li>
+            </ul>
+            <div class="debouches">
+                <a>Débouchés</a>
+                <ul>
+                    <li><i class="bi bi-caret-right-fill"></i> Administrateur systèmes et réseaux</li>
+                    <li><i class="bi bi-caret-right-fill"></i> Technicien support / helpdesk</li>
+                    <li><i class="bi bi-caret-right-fill"></i> Poursuite en licence pro ou école d'ingénieurs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bar"></div>
+        <div class="layout microgate">
+            <table>
+                <h1>Microgate</h1>
+                <thead>
+                    <tr>
+                        <th scope="col">Compétences mises en oeuvres</th>
+                        <th scope="col">Gérer le patrimoine information</th>
+                        <th scope="col">Répondre aux incidents et aux demandes d'assistance et d'évolution</th>
+                        <th scope="col">Développer la présence en ligne de l'organisation</th>
+                        <th scope="col">Travailler en mode projet</th>
+                        <th scope="col">Mettre à disposition des utilisateurs un service informatique</th>
+                        <th scope="col">Organiser son développement professionnel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Réalisation d’un module d’un ERP (Dolibarr) – élaboration d’un graphique sur 
+                            les marges par mois</th>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="location.href='./files/Rapport_activite_microgate.pdf';">Rapport d'activité Microgate</button>
+            <button onclick="location.href='./files/note_synthese_microgate.pdf';">Note de synthèse Microgate</button>
+        </div>
+        <div class="layout exaegis">
+            <table>
+                <h1>Exaegis</h1>
+                <thead>
+                    <tr>
+                        <th scope="col">Compétences mises en oeuvres</th>
+                        <th scope="col">Gérer le patrimoine information</th>
+                        <th scope="col">Répondre aux incidents et aux demandes d'assistance et d'évolution</th>
+                        <th scope="col">Développer la présence en ligne de l'organisation</th>
+                        <th scope="col">Travailler en mode projet</th>
+                        <th scope="col">Mettre à disposition des utilisateurs un service informatique</th>
+                        <th scope="col">Organiser son développement professionnel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Maintenance de code – Gestion de projet avec Jira</th>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Scraping de collectivités – Développement de scripts en Java
+                        </th>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="location.href='./files/Rapport_activite_exaegis.pdf';">Rapport d'activité Exaegis</button>
+            <button onclick="location.href='./files/note_synthese_exaegis.pdf';">Note de synthèse Exaegis</button>
+        </div>
+        <div class="layout stages">
+            <table>
+                <h1>Comparatif</h1>
+                <thead>
+                    <tr>
+                        <th scope="col">Entreprises</th>
+                        <th scope="col">Microgate</th>
+                        <th scope="col">Exaegis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Patrimoine informatique</th>
+                        <td>
+                            Ninja RMM pour la gestion du parc, l'inventaire matériel et la mise à
+                            jour des logiciels et des OS
+                        </td>
+                        <td>
+                            Aujourd’hui, Excel et demain GLPI pour la gestion du parc, l’inventaire
+                             matériel...
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Logiciels</th>
+                        <td>
+                            Dolibarr pour tout ce qui est gestion (comptes, statistiques, projets...)
+                        </td>
+                        <td>
+                            Jira et GitLab sont majoritairement utilisés pour la gestion de projet.
+                             Lucca est utilisé pour tout ce qui est administratif.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cybersécurité</th>
+                        <td>
+                            Le responsable des données est formé et respecte la RGPD, avec une politique
+                             de destruction des données.
+                        </td>
+                        <td>
+                            la RGPD, avec une politique de destruction des données. Le délégué de la
+                             protection des données.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Présence digitale</th>
+                        <td>
+                            Site vitrine + présence sur Facebook, Instagram et X (Twitter). Mais
+                             globalement délaissé.
+                        </td>
+                        <td>
+                            Plusieurs sites internet mis à jour régulièrement et actifs sur les 
+                            X et LinkedIn.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Philosophie de l'entreprise</th>
+                        <td>
+                            Aucune externalisation afin de garder un contrôle interne. Formation
+                             des employés avec un wiki interne régulièrement mis à jour.</td>
+                        <td>
+                            Externalisation pour certaines tâches afin d’assurer une expertise.
+                             Formation personnalisée selon les besoins des employés.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Intelligence artificielle</th>
+                        <td>
+                            /
+                        </td>
+                        <td>
+                            Intelligence artificielle très utilisée pour tous les pôles d’activité,
+                             surtout dans l’IT. Création d’une charte sur l’IA.
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="components-loader.js"></script>
+    </body>
+    <div id="footer"></div>
+</html>

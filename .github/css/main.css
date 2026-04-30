@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+  --color-text:      #e0e0eb;
+  --color-black-text:#232027;
+  --color-bg:        #232027;
+  --color-primary:   #a27be5;
+  --color-secondary: #fef5ff;
+  --color-accent:    #d5fbda;
+
+  --maring-body:     0 12%;
+}
+body {
+  margin: var(--maring-body);
+  color: var(--color-text);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  /*animation: bg 3s ease infinite;*/
+  height: 1000px;
+  background: var(--color-bg);
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+/*
+@keyframes bg {
+  0%{
+    background: radial-gradient(var(--color-bg), 95%, var(--color-primary));
+  }
+  5%{
+    background: radial-gradient(var(--color-bg), 94%, var(--color-primary));
+  }
+  10%{
+    background: radial-gradient(var(--color-bg), 93%, var(--color-primary));
+  }
+  15%{
+    background: radial-gradient(var(--color-bg), 92%, var(--color-primary));
+  }
+  20%{
+    background: radial-gradient(var(--color-bg), 91%, var(--color-primary));
+  }
+  25%{
+    background: radial-gradient(var(--color-bg), 90%, var(--color-primary));
+  }
+  30%{
+    background: radial-gradient(var(--color-bg), 89%, var(--color-primary));
+  }
+  35%{
+    background: radial-gradient(var(--color-bg), 88%, var(--color-primary));
+  }
+  40%{
+    background: radial-gradient(var(--color-bg), 87%, var(--color-primary));
+  }
+  45%{
+    background: radial-gradient(var(--color-bg), 86%, var(--color-primary));
+  }
+  50%{
+    background: radial-gradient(var(--color-bg), 85%, var(--color-primary));
+  }
+  55%{
+    background: radial-gradient(var(--color-bg), 86%, var(--color-primary));
+  }
+  60%{
+    background: radial-gradient(var(--color-bg), 87%, var(--color-primary));
+  }
+  65%{
+    background: radial-gradient(var(--color-bg), 88%, var(--color-primary));
+  }
+  70%{
+    background: radial-gradient(var(--color-bg), 89%, var(--color-primary));
+  }
+  75%{
+    background: radial-gradient(var(--color-bg), 90%, var(--color-primary));
+  }
+  80%{
+    background: radial-gradient(var(--color-bg), 91%, var(--color-primary));
+  }
+  85%{
+    background: radial-gradient(var(--color-bg), 92%, var(--color-primary));
+  }
+  90%{
+    background: radial-gradient(var(--color-bg), 93%, var(--color-primary));
+  }
+  95%{
+    background: radial-gradient(var(--color-bg), 94%, var(--color-primary));
+  }
+  100%{
+    background: radial-gradient(var(--color-bg), 95%, var(--color-primary));
+  }
+}
+*/

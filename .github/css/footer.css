@@ -1,0 +1,68 @@
+footer {
+    margin-top: 10%;
+    height: 200px;
+    display: grid;
+    grid-template-columns : repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    background: #0D0B0E;
+    border-radius: 20px;
+    color: var(--color-text);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+.col a{
+    color: var(--color-text);
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.col1 {
+    justify-self: center;
+    grid-column: 1 / 2;
+}
+.col1 h3 {
+    justify-self: center;
+}
+.col1 .social {
+    justify-self: center;
+}
+.col1 .social a{
+    padding: 10px;
+}
+.col1 .social a i{
+    font-size: 30px;
+    color: var(--color-primary);
+}
+.col2 {
+    justify-self: center;
+    grid-column: 2 / 3;
+}
+.col2 p{
+    justify-self: center;
+}
+.col2 span {
+    justify-self: center;
+    color: #818181; 
+    font-size: smaller
+}
+.col3 {
+    justify-self: center;
+    grid-column: 3 / 4;
+}
+.col3 p{
+    justify-self: center;
+}
+
+@keyframes appear{
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}

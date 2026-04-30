@@ -58,7 +58,7 @@
   grid-column: 1 / 3;
 }
 .bts img{
-  height: 240px;
+  height: 10em;
   width: auto;
   justify-self: center;
   align-self: center;
@@ -228,4 +228,23 @@ thead{
   .SISR p{
     grid-column: 1/4;
   }
+}
+
+@media screen and (max-width: 1700px){
+  table{
+    width: 100%;
+    table-layout: fixed;
+  }
+  body{
+    margin: 0;
+    width: 100%;
+  }
+  th,
+  td {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700){
+  
 }

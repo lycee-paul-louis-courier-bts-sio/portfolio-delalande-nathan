@@ -1,6 +1,25 @@
 <link rel="stylesheet" href="css/navbar.css">
 <nav class="navbar">
   <div class="logo"><a href="index.html"><img src="assets/logo_transparent_blanc.png"></a></div>
+  <header class="mobile">
+    <button popovertarget="menu">
+      <a>X</a>
+    </button>
+
+    <nav popover role="menu" id="menu">
+        <button popovertarget="menu" popovertargetaction="hide">
+          <a>X</a>
+        </button>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="etude.html">Études</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="#">Projets</a></li>
+        <li><a href="#">Veille</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <ul class="nav-links">
     <li>
       <span class="item">
@@ -40,6 +59,5 @@
       </span>
       <a href="contact.html">Contact</a>
     </li>
-    </div>
   </ul>
 </nav>

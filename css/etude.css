@@ -204,11 +204,6 @@ li {
 thead{
   background: color-mix(in srgb, var(--color-bg) 85%, black);; 
 }
-.microgate img,
-.exaegis img{
-  width: 100%;
-  height: auto;
-}
 
 
 @keyframes appear{

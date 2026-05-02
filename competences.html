@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/competences.css">
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/competences.css">
   <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -103,8 +103,20 @@
             </div>
         </div>
     </div>
+    <div class="layout synthese" id="synthese">
+        
+        <button><a href="#box"><img src="assets/tableau-synthese.png"></a></button>
+        <button class="pdf" onclick="location.href='./files/tableau_synthese.pdf';">Tableau de synthese en PDF</button>
+
+    </div>
   <script src="components-loader.js"></script>
 </body>
 <div id="footer"></div>
+<div id="box">
+    <div id="modale">
+        <img src="assets/tableau-synthese.png" alt="tableau de synthèse">
+        <a href="#synthese">X</a>
+    </div>
+</div>
 
 </html>

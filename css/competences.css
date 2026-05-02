@@ -40,9 +40,11 @@
 }
 
 .stage .group{
-    display: flex;
-    gap: 20em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
     justify-content: center;
+    width: 100%;
 }
 .stage .card{
     transition: transform 1s ease;
@@ -83,6 +85,82 @@
 p {
     font-size: 22px;
 }
+.synthese{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.synthese button{
+    background: none;
+    outline: none;
+    padding: 1px;
+    border: 2px solid var(--color-bg);
+    border-radius: 30px;
+}
+.synthese button:hover{
+    border: 2px solid var(--color-primary);
+}
+.synthese button a img{
+    border-radius: 30px;
+    height: 500px;
+}
+.synthese button.pdf{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 22px;
+    color: var(--color-primary);
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-primary);
+    border-radius: 50px;
+}
+.synthese button.pdf:hover{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+#box{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: color-mix(in srgb, var(--color-bg) 50%, transparent);
+    display: none;
+}
+#box:target{
+    display: block;
+}
+#modale{
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-primary);
+    width: 70%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+#modale img{
+    height: 98%;
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    border-radius: 30px;
+}
+#modale a{
+    font-size: 300%;
+    text-decoration: none;
+    color: var(--color-accent);
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
 
 @keyframes slide {
     from{
@@ -100,4 +178,45 @@ p {
     opacity: 1;
     scale: 1;
   }
+}
+
+@media screen and (max-width: 1700px) {
+    body{
+        margin: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .stage{
+        height: 100%;
+    }
+    .stage .group{
+        grid-template-rows: repeat(2,200px);
+        grid-template-columns: repeat(2,200px);
+        height: 100%;
+        gap: 10px;
+    }
+    pair{
+        grid-column: 2;
+    }
+}
+@media screen and (max-width: 500px) {
+    .stage .group{
+        grid-template-rows: repeat(4,200px);
+        grid-template-columns: repeat(1,200px);
+        height: 100%;
+        gap: 10px;
+    }
+    .skills .card{
+        height: 70px;
+    }
+    .synthese img{
+        display: none;
+    }
+    .synthese button.pdf{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
 }

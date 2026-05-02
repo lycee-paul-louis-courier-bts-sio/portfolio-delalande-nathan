@@ -204,6 +204,11 @@ li {
 thead{
   background: color-mix(in srgb, var(--color-bg) 85%, black);; 
 }
+.microgate img,
+.exaegis img{
+  width: 100%;
+  height: auto;
+}
 
 
 @keyframes appear{
@@ -245,6 +250,31 @@ thead{
   }
 }
 
-@media screen and (max-width: 700){
-  
+@media screen and (max-width: 768px){
+  .microgate table,
+  .exaegis table{
+    display: none;
+  }
+  .parcours ul{
+    padding: 0;
+  }
+  .bts img{
+    display: none;
+  }
+  .bts p{
+    grid-column: 1/-1;
+  }
+  .SLAM,
+  .SISR{
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .programme{
+    padding: 0;
+    margin: 0 10px;
+    grid-column: 1/-1;
+  }
+  .debouches{
+    grid-column: 1/4;
+    grid-row: 5/-1;
+  }
 }

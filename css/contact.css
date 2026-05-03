@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .formulaire {
+  display: flex;
   margin: 110px auto;
   padding: 0px;
   background-color: var(--color-bg);
@@ -8,11 +9,12 @@
   font-weight: bold;
   border-radius: 10%;
   width: 40%;
+  justify-content: center;
 }
 form {
   padding: 30px;
   background-color: var(--color-primary);
-  border-radius: 10%;
+  border-radius: 50px;
   width: 90%;
 }
 form h1 {
@@ -99,5 +101,23 @@ form .pied-formulaire button:hover {
   }
   form .corps-formulaire .droite {
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body{
+    margin: 0 2%;
+  }
+  .formulaire form h1{
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body{
+    margin: 0 0;
+  }
+  .formulaire form h1{
+    font-size: 26px;
   }
 }

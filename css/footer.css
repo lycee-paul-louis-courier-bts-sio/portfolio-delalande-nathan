@@ -66,3 +66,15 @@ footer {
     scale: 1;
   }
 }
+
+@media screen and (max-width: 590px) {
+    .col1 h3{
+        margin: 10% 10%;
+    }
+    footer{
+        font-size: 14px;
+    }
+    .col1 .social a i{
+        font-size: 140%;
+    }
+}

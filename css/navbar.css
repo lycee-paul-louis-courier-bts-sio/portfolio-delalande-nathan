@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0px 5px 12px#2D3246;
+  z-index: 999;
 }
 .logo {
   color: #fff;

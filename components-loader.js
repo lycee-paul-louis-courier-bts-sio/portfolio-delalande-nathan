@@ -7,3 +7,4 @@ async function loadComponent(id, file, options = {}) {
 
 loadComponent('footer', 'footer.html');
 loadComponent('navbar', 'navbar.html');
+loadComponent('scrollup', 'scrollup.html');

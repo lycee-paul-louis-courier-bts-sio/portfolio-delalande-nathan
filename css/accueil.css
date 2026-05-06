@@ -48,8 +48,6 @@
 }
 .card:hover .img-card {
 	transform: translateY(-100px);
-}
-.card:hover .img-card{
   z-index: 0;
 }
 .img-card > img {

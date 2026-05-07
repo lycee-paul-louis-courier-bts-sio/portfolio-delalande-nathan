@@ -1,0 +1,13 @@
+.layout{
+    height: 100%;
+    align-content: center;
+    margin: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px var(--color-primary);
+    padding: 2%;
+    font-size: 22px;
+}
+.intro h1{
+    text-align: center;
+}

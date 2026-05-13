@@ -277,3 +277,15 @@ h1 {
     font-size: 200%;
   }
 }
+
+@media screen and (max-width: 1790px) {
+  .text{
+    padding-left: 10%;
+  }
+  .dynamic{
+    display: block;
+  }
+  .dynamic-txt{
+    padding: 0;
+  }
+}

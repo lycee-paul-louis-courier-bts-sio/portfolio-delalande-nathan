@@ -27,6 +27,7 @@
 .projet{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 2fr);
     margin: 20% 0;
 }
 .text{
@@ -68,12 +69,18 @@
 .competence i {
   font-size: 20px;
 }
-
-
+.screen {
+  align-content: center;
+}
+.item {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
 .card {
   position: relative;
-  height: 405px;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
   overflow: hidden;
   transition: box-shadow 0.3s ease-out;
   border-radius: 20px;
@@ -103,6 +110,7 @@
 .img-card > img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
   transition: opacity 0.3s ease-out;
 }
 .card:hover > .img-card > img {
@@ -172,5 +180,21 @@
   to {
     opacity: 1;
     scale: 1;
+  }
+}
+
+@media screen and (max-width: 1700px){
+  body{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .projet {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .text {
+    margin-left: 0;
   }
 }

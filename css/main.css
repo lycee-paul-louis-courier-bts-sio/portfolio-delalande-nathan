@@ -23,6 +23,12 @@ body {
   background: var(--color-bg);
 }
 
+@media screen and (max-width: 1700px){
+  body{
+    margin: 0;
+  }
+}
+
 /*
 @media (prefers-color-scheme: light){
   :root{

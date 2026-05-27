@@ -204,6 +204,12 @@ li {
 thead{
   background: color-mix(in srgb, var(--color-bg) 85%, black);; 
 }
+.microgate img {
+  aspect-ratio: 1896 / 946;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
 
 
 @keyframes appear{

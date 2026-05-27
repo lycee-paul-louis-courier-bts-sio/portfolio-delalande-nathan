@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="assets/favicon.png" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/veille.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <title>Veille technologique</title>
 </head>
 <body>
@@ -19,8 +22,51 @@
             J'ai ainsi décidé d'accentuer ma veille sur l'évolution de l'IA dans le développement.
         </p>
     </div>
-    <div class="layout">
-
+    <div class="layout feedly">
+        <div class="feedlyimg">
+            <img src="assets/Feedly.png" alt="">
+        </div>
+        <div class="image">
+            <img src="assets/veille/vue-feedly.png" alt="page de l'application EpokaPresse">
+        </div>
+        <div class="desciption recherche">
+            <h2>Recherche</h2>
+            <p>
+                Pour enrichir ma veille, je commence par rechercher des articles ayant un rapport
+                 avec cette dernière en me rendant dans les actualités liées à mon feed Feedly.
+            </p>
+        </div>
+        <div class="arrow a"><i class="fa-solid fa-arrow-down-long"></i></div>
+        <div class="arrow b"><i class="fa-solid fa-arrow-down-long"></i></div>
+        <div class="desciption selection">
+            <h2>Sélection</h2>
+            <p>
+                Ensuite, une fois que j'ai trouvé un article qui me paraît intéressant, soit je le mets
+                 dans les articles "à lire plus tard", soit je le lis et l'enregistre dans mon Notion.
+            </p>
+        </div>
+        <div class="feedlyimg">
+            <img src="assets/Notion.png" alt="">
+        </div>
+        <section class="container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="assets/veille/vue-notion.png" alt="veille Notion">
+                    <img id="slide-2" src="assets/veille/vue-notion-article.png" alt="article de la veille Notion">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                </div>
+            </div>
+        </section>
+        <div class="desciption enregistrement">
+            <h2>Enregistement</h2>
+            <p>
+                Pour finir, afin d'enregistrer un article, je renseigne la date de publication, le titre, l'auteur,
+                 la langue, le type d'article et la source. Sans oublier de noter un récapitulatif de l'article.
+            </p>
+        </div>
     </div>
     <div id="footer"></div>
     <script src="components-loader.js"></script>

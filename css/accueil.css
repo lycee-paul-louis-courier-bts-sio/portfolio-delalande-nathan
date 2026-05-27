@@ -164,8 +164,8 @@ h1 {
   display: flex;
 }
 .dynamic-txt {
-  margin-block-start: 2.22em;
-  padding-left: 15px;
+  margin: 0;
+  padding: 0;
   line-height: 4rem;
   height: 4rem;
   overflow: hidden;
